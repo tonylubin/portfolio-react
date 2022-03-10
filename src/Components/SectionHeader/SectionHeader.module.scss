@@ -1,0 +1,7 @@
+@use '../../assets/styling/variables.scss' as *;
+
+.sectionTitle {
+    color: $section-heading-color;
+    padding: 5rem 0;
+    font-size: 2rem;
+}

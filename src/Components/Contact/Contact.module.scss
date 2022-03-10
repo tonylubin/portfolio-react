@@ -1,0 +1,41 @@
+@use '../../assets/styling/variables.scss' as *;
+
+.contactSection {
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .iconContainer {
+        display: flex;
+        gap: 1.5rem;
+    }
+}
+
+.emailHeading {
+    display: flex;
+    align-items: flex-end;
+    color: $primary-color;
+    font-size: 1.5rem;
+    width: min-content;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    &__link {
+        text-decoration-line: none;
+        color: $landing-text-color;
+    }
+}
+
+.emailHeading__link:hover {
+    color: $section-heading-color;
+}
+
+.linkHover:hover {
+    transform: scale(1.2);
+}

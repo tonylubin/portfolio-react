@@ -1,0 +1,20 @@
+@use "../../assets/styling/variables.scss" as text;
+
+.baseBtn {
+  color: text.$landing-text-color;
+  background-color: text.$card-color;
+  border: none;
+  border-radius: 5px;
+  padding: 0.6em;
+  font-size: 1rem;
+}
+
+.baseBtn:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
+.iconBtn {
+  padding-right: 0.7em;
+}

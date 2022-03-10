@@ -1,0 +1,58 @@
+@use '../../assets/styling/variables.scss' as *;
+
+.card {
+    width: 100px;
+    height: 100px;
+    //background-color: $card-color;
+    //border-radius: 15px;
+    color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    &__title {
+        color: $primary-color;
+    }
+}
+
+.html {
+    color: #E35B24;
+}
+
+.css3 {
+    color: #2449D8;
+}
+
+.sass {
+    color: #C26191;
+}
+
+.git {
+    color: #E44C30;
+}
+
+.bootstrap {
+    color: #7952B3;
+}
+
+.npm {
+    color: #C33435;
+}
+
+.nodejs {
+    color: #69A264;
+}
+
+.js {
+    color: #EAD41C;
+}
+
+.react {
+    color: #5CCFEE;
+}
+
+.firebase {
+    color: #F29C15;
+}

@@ -1,0 +1,13 @@
+.skillsList {
+  width: 80vw;
+  height: 100vh;
+  margin: auto;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    margin-top: 3rem;
+    row-gap: 3rem;
+  }
+}

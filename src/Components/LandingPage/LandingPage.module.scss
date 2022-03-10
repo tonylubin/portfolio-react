@@ -1,0 +1,31 @@
+@use '../../assets/styling/variables' as *;
+
+.landingPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    background-image: url("../../assets/images/chris-ried-ieic5Tq8YMk-unsplash.png");
+    background-size: cover;
+    color: $landing-text-color;
+
+    &__greeting {
+        text-align: left;
+        font-size: 1.7rem;
+        line-height: 1.6;
+    }
+
+    &__greetingHeader {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    &__greetingBold {
+        font-weight: bold;
+    }
+
+    &__greetingEnd {
+        margin-top: 2rem;
+    }
+}
