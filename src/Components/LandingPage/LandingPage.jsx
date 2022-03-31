@@ -16,26 +16,7 @@ const LandingPage = () => {
             .start();
           }}        
         />
-        {/* <p>
-          <span className={styles.landingPage__greetingHeader}>
-            &gt;_ Hello
-          </span>{" "}
-          (tech world),
-        </p>
-        <p>
-          <span className={styles.landingPage__greetingBold}>
-            I'm Anthony Lubin
-          </span>
-          , a junior web developer based in London.
-        </p>
-        <p className={styles.landingPage__greetingEnd}>
-          <span className={styles.landingPage__greetingBold}>Please</span>{" "}
-          scroll down to
-        </p>
-        <p className={styles.landingPage__greetingBold}>Enter.....</p> */}
-
-
-      </div>
+       </div>
     </section>
   );
 };
