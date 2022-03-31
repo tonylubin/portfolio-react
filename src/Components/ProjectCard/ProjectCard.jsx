@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
+import SkillsTechList from "../SkillsTechList/SkillsTechList";
 import styles from "./ProjectCard.module.scss";
 
 const ProjectCard = (props) => {
@@ -17,9 +18,10 @@ const ProjectCard = (props) => {
       <div className={styles.projectContainer__info}>
         <h2 className={styles.projectContainerTitle}>{props.title}</h2>
         <p className={styles.textInfo}>{props.info}</p>
+        <SkillsTechList techstackIcons={props.techstackIcons} />
         <div className={styles.projectContainerBtnHolder}>
           <a href={props.projectViewUrl} target="_blank" rel="noopener noreferrer">
-            <Button text="view" icon="fa-regular fa-eye" />
+            <Button text="view" icon="fa-regular fa-eye"/>
           </a>
           <a href={props.projectCodeUrl} target="_blank" rel="noopener noreferrer">
             <Button text="code" icon="fa-solid fa-code" />
