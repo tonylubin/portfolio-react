@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import styles from "./Button.module.scss";
 
-const Button = (props) => {
+const Button = ({ text, icon }) => {
 
   const destinationUrl = () => {
     console.log("you clicked me")
@@ -10,8 +10,8 @@ const Button = (props) => {
 
   return (
     <button className={styles.baseBtn} onClick={destinationUrl}>
-      <FontAwesomeIcon icon={props.icon} size={props.size} className={styles.iconBtn} />
-      {props.text}
+      <FontAwesomeIcon icon={icon} className={styles.iconBtn} />
+      {text}
     </button>
   )
 };
