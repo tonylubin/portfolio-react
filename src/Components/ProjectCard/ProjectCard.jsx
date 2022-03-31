@@ -18,10 +18,10 @@ const ProjectCard = (props) => {
         <h2 className={styles.projectContainerTitle}>{props.title}</h2>
         <p className={styles.textInfo}>{props.info}</p>
         <div className={styles.projectContainerBtnHolder}>
-          <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+          <a href={props.projectViewUrl} target="_blank" rel="noopener noreferrer">
             <Button text="view" icon="fa-regular fa-eye" />
           </a>
-          <a href="http://bbc.com" target="_blank" rel="noopener noreferrer">
+          <a href={props.projectCodeUrl} target="_blank" rel="noopener noreferrer">
             <Button text="code" icon="fa-solid fa-code" />
           </a>
         </div>

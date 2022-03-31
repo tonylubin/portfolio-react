@@ -1,0 +1,18 @@
+.skillsList {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 2rem;
+
+    .js {
+        color: yellow;
+    }
+
+    .sass {
+        color: purple;
+    }
+
+    .bem {
+        color: green;
+    }
+}
