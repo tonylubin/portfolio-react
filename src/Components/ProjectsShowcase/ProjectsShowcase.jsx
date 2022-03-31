@@ -2,22 +2,23 @@ import React from "react";
 import SectionHeader from "../SectionHeader/SectionHeader";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import styles from "./ProjectsShowcase.module.scss";
-import cardData from "../../data.js";
+import cardData from "../../data/projectData.js";
 
 const ProjectsShowcase = () => {
 
-  const getProjects = cardData.map((data, index) => (
+  const getProjects = cardData.map((card, index) => (
 
     <ProjectCard
       key={index}
-      title={data.title}
-      info={data.info}
-      imageUrl={data.imageUrl}
-      imageAlt={data.imageAlt}
-      isReversed={data.isReversed}
-      projectViewUrl={data.view}
-      projectCodeUrl={data.code}
-    />
+      title={card.title}
+      info={card.info}
+      imageUrl={card.imageUrl}
+      imageAlt={card.imageAlt}
+      isReversed={card.isReversed}
+      projectViewUrl={card.view}
+      projectCodeUrl={card.code}
+      techstackIcons={card.techstackIcons}
+    />   
 
   ));
 
