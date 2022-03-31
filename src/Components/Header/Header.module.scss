@@ -3,7 +3,7 @@
 .heading {
     width: 100vw;
     height: 10vh;
-    background-color: $heading-color;
+    background-color: $primary-background-color;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -11,7 +11,7 @@
     z-index: 1;
 
     p {
-        color: $landing-text-color;
+        color: $secondary-text-color;
         font-size: 1.5rem;
     }
 }

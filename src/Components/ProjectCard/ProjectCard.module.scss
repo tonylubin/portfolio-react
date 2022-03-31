@@ -43,7 +43,7 @@
         flex-direction: column;
         justify-content: space-between;
         width: 40%;
-        color: $primary-color;
+        color: $primary-text-color;
         padding-left: 2rem;
         // border-left: 1px solid $section-heading-color;
         // border-right: 1px solid $section-heading-color;
@@ -64,6 +64,7 @@
 
 .textInfo {
     text-align: left;
+    line-height: 1.5rem;
 }
 
 .projectContainerReverse {

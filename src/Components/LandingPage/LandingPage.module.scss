@@ -8,7 +8,7 @@
     width: 100vw;
     background-image: url("../../assets/images/chris-ried-ieic5Tq8YMk-unsplash.png");
     background-size: cover;
-    color: $landing-text-color;
+    color: $secondary-text-color;
 
     &__greeting {
         text-align: left;
@@ -17,12 +17,12 @@
     }
 
     &__greetingHeader {
-        font-weight: bold;
+        font-weight: 700;
         font-size: 2.5rem;
     }
 
     &__greetingBold {
-        font-weight: bold;
+        font-weight: 700;
     }
 
     &__greetingEnd {
