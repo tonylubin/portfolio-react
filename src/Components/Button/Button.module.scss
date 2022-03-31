@@ -1,11 +1,11 @@
 @use "../../assets/styling/variables.scss" as text;
 
 .baseBtn {
-  color: text.$landing-text-color;
-  background-color: text.$card-color;
+  color: text.$secondary-text-color;
+  background-color: text.$primary-background-color;
   border: none;
   border-radius: 5px;
-  padding: 0.6em;
+  padding: 0.6em 0.6rem 0.6rem 0;
   font-size: 1.2rem;
   font-weight: 700;
 }
