@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
-import './App.css';
+import './App.scss';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Header from './Components/Header/Header';
 import LandingPage from './Components/LandingPage/LandingPage';
-import ProjectsShowcase from './Components/ProjectsShowcase/ProjectsShowcase';
-import SkillsList from './Components/SkillsList/SkillsList';
+import ProjectsShowcase from './Containers/ProjectsShowcase/ProjectsShowcase';
+import SkillsList from './Containers/SkillsList/SkillsList';
 
 function App() {
 
