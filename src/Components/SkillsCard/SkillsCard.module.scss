@@ -2,15 +2,14 @@
 
 .card {
     width: auto;
-    height: 100px;
-    //background-color: $card-color;
-    //border-radius: 15px;
+    height: auto;
     color: $primary-text-color;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+    padding: 1rem;
 
     &__title {
         color: $primary-text-color;
