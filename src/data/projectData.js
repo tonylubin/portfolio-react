@@ -1,9 +1,9 @@
-import quizImg from '../assets/images/wheeloffortune-screenshot.png';
-import beerImg from '../assets/images/punkbeers-screenshot.png';
-import calcImg from '../assets/images/jscalculator-screenshot.png';
-import translatorImg from '../assets/images/morsecodetranslator-screenshot.png';
-import battleshipsImg from '../assets/images/alienbattleships-screenshot.png';
-import myTodosImg from '../assets/images/mytodos-screenshot.png';
+import quizImg from '../assets/images/fortunegame-laptopscreen.png';
+import calcImg from '../assets/images/js-calc-laptopscreen.png';
+import translatorImg from '../assets/images/morsecode-laptopscreen.png';
+import battleshipsImg from '../assets/images/alienbattleships-laptopscreen.png';
+import myTodosImg from '../assets/images/mytodos-laptopscreen.png';
+import beerImg from '../assets/images/punkbeers-laptopscreen.png';
 
 const projectInfo = [
     
@@ -63,7 +63,7 @@ const projectInfo = [
         code: "https://github.com/tonylubin/todos-app",
         view: "https://mytodosapp-4e40f.firebaseapp.com/",
         title: "MyTodos App",
-        info: 'Designed in a modern and clean ui style using React, this Todos app allows a user to keep track of tasks/todos, in a list style type format. Built with a connection to Firebase as a BaaS to allow CRUD operations, a user can therefore write, update and delete a todo, as well as being able to show a todo as completed. Furthermore, authentication was added, thus to utilise the app a user must register via email and password and subsequently enter login details to retrieve their todos.', 
+        info: 'An app for a user to keep track of tasks. Built with a connection to Firebase as a BaaS to allow CRUD operations, a user can write, update and delete a todo, as well as being able to show a todo as completed. Furthermore, authentication was added, thus to utilise the app a user must be registered.', 
         imageUrl: myTodosImg, 
         imageAlt: "Screenshot of a app that deals with todos", 
         isReversed: false,
@@ -97,7 +97,7 @@ const projectInfo = [
         imageAlt: "Screenshot of a JS Calculator App", 
         info: "A working calculator with addition, multiplication, subtraction, division and the added functionality of decimal points and percentages. The calculator has a 'clear' button to reset values and a 'backspace' button to delete the last value entered on screen. Designed in a neomorphic style using Sass, the Bem convention and written in vanilla Javascript.", 
         imageUrl: calcImg, 
-        isReversed: false,
+        isReversed: true,
         techstackIcons: [
             {
                 size: "2xl",
@@ -123,7 +123,7 @@ const projectInfo = [
         imageAlt: "Screenshot of a Morse code translator application",
         info: 'Tasked with creating a translator app, which adopts an "OOP" approach. Takes in user input for the translation between two languages => English/Morse code and vice-versa.', 
         imageUrl: translatorImg, 
-        isReversed: true,
+        isReversed: false,
         techstackIcons: [
             {
                 size: "2xl",
@@ -149,7 +149,7 @@ const projectInfo = [
         imageAlt: "Screenshot of BattleShips OOP Game", 
         info: 'A minimalist/retro designed project, written in Vanilla JS, based around the classic battleships game and built according to the principles of the "OOP" paradigm. Created on a grid system, targets hit are visualised by a "flashing animation" and the game is over when the mothership is destroyed.', 
         imageUrl: battleshipsImg, 
-        isReversed: false,
+        isReversed: true,
         techstackIcons: [
             {
                 size: "2xl",
