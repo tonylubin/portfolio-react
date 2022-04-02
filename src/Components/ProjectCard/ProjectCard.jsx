@@ -4,7 +4,7 @@ import SkillsTechList from "../SkillsTechList/SkillsTechList";
 import styles from "./ProjectCard.module.scss";
 
 const ProjectCard = (props) => {
-  return (
+  return (  
     <article
       className={
         props.isReversed === false
@@ -17,7 +17,8 @@ const ProjectCard = (props) => {
       </div>
       <div className={styles.projectContainer__info}>
         <h2 className={styles.projectContainerTitle}>{props.title}</h2>
-        <p className={styles.textInfo}>{props.info}</p>
+      <p className={styles.textInfo}>{props.info}</p>
+        {/* <div className={styles.info}>INFO</div> */}
         <SkillsTechList techstackIcons={props.techstackIcons} />
         <div className={styles.projectContainerBtnHolder}>
           <a href={props.projectViewUrl} target="_blank" rel="noopener noreferrer">
