@@ -18,8 +18,8 @@ function App() {
     <div className="App">
       <Header />
       <LandingPage />
-      <SkillsList />
       <ProjectsShowcase />
+      <SkillsList />
       <About />
       <Contact />
     </div>
