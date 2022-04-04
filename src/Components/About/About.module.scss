@@ -4,6 +4,7 @@
 .aboutSection {
     width: 100vw;
     height: 100vh;
+    margin-bottom: 15vh;
 
     &__textHolder {
         width: 60%;
@@ -16,6 +17,10 @@
             font-size: 1.2rem;
             margin-bottom: 10px;
             font-family: 'IBM Plex Sans', sans-serif;
+        }
+
+        > p:first-child {
+            padding-top: 2rem;
         }
     } 
 }
