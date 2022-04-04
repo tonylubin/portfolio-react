@@ -1,4 +1,5 @@
 @use '../../assets/styling/variables.scss' as *;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
 
 .aboutSection {
     width: 100vw;
@@ -10,8 +11,11 @@
 
         > p {
             color: $primary-text-color;
-            line-height: 1.5rem;
+            line-height: 1.7rem;
             text-align: left;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            font-family: 'IBM Plex Sans', sans-serif;
         }
     } 
 }
