@@ -20,7 +20,7 @@ const SkillsList = () => {
 
   return (
     <section className={styles.skillsList} id="skills">
-      <SectionHeader heading="Skills / Tech Stack" />
+      <SectionHeader heading="Skills" />
       <div className={styles.skillsList__container}>
         {getSkillsCards}
       </div>

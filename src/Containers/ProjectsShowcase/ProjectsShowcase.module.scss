@@ -8,3 +8,9 @@
     gap: 12rem;
     margin: 40vh auto;
 }
+
+@media (max-width: 480px) {
+    .projectsDisplay {
+        margin: 30vh auto;
+    } 
+}

@@ -40,3 +40,12 @@
 .linkHover:hover {
     transform: scale(1.2);
 }
+
+@media (max-width: 480px) {
+    .emailHeading {
+        font-size: 1rem;
+    }
+    .contactSection {
+        padding-top: 4rem;
+    }
+}

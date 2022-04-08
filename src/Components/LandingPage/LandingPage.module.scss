@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
     background-image: url("../../assets/images/chris-ried-ieic5Tq8YMk-unsplash.png");
     background-size: cover;
@@ -27,5 +27,13 @@
 
     &__greetingEnd {
         margin-top: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .landingPage__greeting {
+        width: 80%;
+        margin: auto;
+        font-size: 1.1rem;
     }
 }
