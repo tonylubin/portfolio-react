@@ -1,6 +1,9 @@
 @use "../../assets/styling/variables.scss" as text;
 
 .baseBtn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   color: text.$secondary-text-color;
   background-color: text.$primary-background-color;
   border: none;
