@@ -1,7 +1,8 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import ReactTooltip from "react-tooltip";
 import SectionHeader from "../SectionHeader/SectionHeader";
+import SkillIcon from "../SkillIcon/SkillIcon";
+import { gitHubSvg, linkedInSvg, emailSvg } from "../../data/skillsData";
 import styles from "./Contact.module.scss";
 
 const Contact = () => {
@@ -17,7 +18,7 @@ const Contact = () => {
       <div className={styles.contactSection__container}>
         <div className={styles.emailHeading}>
           <h3>Email:</h3>
-          <FontAwesomeIcon icon="fa-solid fa-envelope" size="2x" inverse />
+          <SkillIcon width="2em" height="2em" viewBox={emailSvg.viewBox} svgInfo={emailSvg.svgInfo} /> 
           <a
             className={styles.emailHeading__link}
             href={`mailto:${urls.email}`}
@@ -34,7 +35,7 @@ const Contact = () => {
             data-tip
             data-for="gh"
           >
-            <FontAwesomeIcon icon="fa-brands fa-github" size="2x" inverse />
+            <SkillIcon width="2em" height="2em" viewBox={gitHubSvg.viewBox} svgInfo={gitHubSvg.svgInfo}/>
           </a>
           <ReactTooltip id="gh" place="bottom" effect="solid">
             Vist my Github page
@@ -47,7 +48,7 @@ const Contact = () => {
             data-tip
             data-for="lkdn"
           >
-            <FontAwesomeIcon icon="fa-brands fa-linkedin" size="2x" inverse />
+            <SkillIcon width="2em" height="2em" viewBox={linkedInSvg.viewBox} svgInfo={linkedInSvg.svgInfo}/>
           </a>
           <ReactTooltip id="lkdn" place="bottom" effect="solid">
             Vist my LinkedIn page

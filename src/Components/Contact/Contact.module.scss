@@ -33,6 +33,10 @@
     }
 }
 
+.emailHeading > h3 {
+    padding-bottom: 0.1em;
+}
+
 .emailHeading__link:hover {
     color: $section-heading-color;
 }
