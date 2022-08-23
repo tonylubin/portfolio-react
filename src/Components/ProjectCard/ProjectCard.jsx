@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../Button/Button";
 import SkillsTechList from "../SkillsTechList/SkillsTechList";
+import { codeSvg, viewSvg } from "../../data/skillsData.js";
 import styles from "./ProjectCard.module.scss";
 
 const ProjectCard = (props) => {
@@ -22,10 +23,10 @@ const ProjectCard = (props) => {
         <SkillsTechList techstackIcons={props.techstackIcons} />
         <div className={styles.projectContainerBtnHolder}>
           <a href={props.projectViewUrl} target="_blank" rel="noopener noreferrer">
-            <Button text="view" icon="fa-regular fa-eye"/>
+            <Button text="view" width="1.6rem" height="1.6rem" viewBox={viewSvg.viewBox} svgInfo={viewSvg.svgInfo} />
           </a>
           <a href={props.projectCodeUrl} target="_blank" rel="noopener noreferrer">
-            <Button text="code" icon="fa-solid fa-code" />
+            <Button text="code" width="1.6rem" height="1.6rem" viewBox={codeSvg.viewBox} svgInfo={codeSvg.svgInfo} />
           </a>
         </div>
       </div>

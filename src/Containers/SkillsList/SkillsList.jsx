@@ -2,18 +2,17 @@ import React from "react";
 import SectionHeader from "../../Components/SectionHeader/SectionHeader";
 import SkillsCard from "../../Components/SkillsCard/SkillsCard";
 import styles from "./SkillsList.module.scss";
-import skillsCardData from "../../data/skillsData";
+import { techSkills } from "../../data/skillsData";
+import SkillIcon from "../../Components/SkillIcon/SkillIcon";
 
 const SkillsList = () => {
 
-  const getSkillsCards = skillsCardData.map((skillcard, index) => (
+  const getSkillsCards = techSkills.map((skillcard, index) => (
 
     <SkillsCard
       key={index}
-      icon={skillcard.icon}
-      iconColor={skillcard.iconColor}
+      icon={<SkillIcon svgInfo={skillcard.svgInfo} viewBox={skillcard.viewBox} width="3em" height="3em"/>}
       title={skillcard.title}
-      size={skillcard.size}
     />
 
   ));
