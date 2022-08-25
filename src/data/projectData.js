@@ -43,8 +43,8 @@ const projectInfo = [
     ]
   },
   {
-    code: "https://github.com/tonylubin/Beer-Finder---Punk-Api---React",
-    view: "https://tonylubin.github.io/Beer-Finder---Punk-Api---React",
+    code: "https://github.com/tonylubin/Beer-Finder-Punk-api",
+    view: "https://tonylubin.github.io/Beer-Finder-Punk-api",
     title: "BrewDog Beer Finder App",
     info: 'A project built in React that allows the user to search for Punk beers, by letter/name or filter functionality, via the external Punk beer Api. The results are shown to the user as a flipable "beer card" with extra info about the beer on the back of the card. Project also incorporates, where suitable, unit testing using jest/enzyme.',
     imageUrl: beerImg,
