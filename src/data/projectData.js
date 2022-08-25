@@ -3,7 +3,7 @@ import calcImg from "../assets/images/js-calc-laptopscreen.png";
 import translatorImg from "../assets/images/morsecode-laptopscreen.png";
 import battleshipsImg from "../assets/images/alienbattleships-laptopscreen.png";
 import myTodosImg from "../assets/images/mytodos-laptopscreen.png";
-import beerImg from "../assets/images/punkbeers-laptopscreen.png";
+import beerImg from "../assets/images/beer-finder-app.png";
 import moneySaverImg from "../assets/images/money-saver-app.png";
 import { techSkills, expressSvg } from "./skillsData";
 
