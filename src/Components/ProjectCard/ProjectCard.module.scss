@@ -1,20 +1,22 @@
 @use '../../assets//styling/variables.scss' as *;
 
 .projectContainer {
-    width: 80vw;
+    max-width: 80%;
     height: auto;
-    margin: auto;
-    display: flex;
     margin: 3rem 0;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: auto;
+    gap: 5rem;
 
     &__image {
-        width: 60%;
-        display: flex;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
         align-items: center;
 
         img {
-            width: 90%;
+            grid-area: 1 / 1 / 2 / 2;
             opacity: 0.4;
         }
 
@@ -28,7 +30,6 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 40%;
         color: $primary-text-color;
         padding-left: 2rem;
     }
@@ -38,27 +39,45 @@
 .projectContainerBtnHolder {
     width: 100%;
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .projectContainerTitle {
-    padding: 1rem 0;
+    font-size: 1.8rem;
     text-align: left;
 }
 
 .textInfo {
     text-align: left;
     line-height: 1.5rem;
+    color: #fff;
+    max-width: 60%;
+    grid-area: 1 / 1 / 2 / 2;
+    visibility: hidden;
+}
+
+.textInfoReveal {
+    visibility: visible;
+}
+
+.textInfoReveal + img {
+    opacity: 0.1;
 }
 
 .projectContainerReverse {
-    flex-direction: row-reverse;
+    grid-template-columns: 2fr 3fr;
+}
+
+.reverseOrderImg {
+    order: 2;
 }
 
 .info {
-    border: 2px solid #fff;
-    padding: 0.7rem;
-    width: 33.33%;
+    border: 0.5px solid #f8f9fa;
+    border-radius: 2px;
+    padding: 1rem 1.5rem;
+    margin: 2rem 0 4rem 0;
+    width: max-content;
 }
 
 @media (max-width: 480px)  {
