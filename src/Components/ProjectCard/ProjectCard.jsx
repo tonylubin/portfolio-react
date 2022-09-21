@@ -1,25 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "../Button/Button";
 import SkillsTechList from "../SkillsTechList/SkillsTechList";
 import { codeSvg, viewSvg } from "../../data/skillsData.js";
 import styles from "./ProjectCard.module.scss";
 
+
 const ProjectCard = (props) => {
+  
+  const [ showInfo, setShowInfo ] = useState(false);
+  
+  const showText = () => setShowInfo(true);
+  const hideText = () => setShowInfo(false);
+
   return (  
     <article
       className={
-        props.isReversed === false
-          ? styles.projectContainer
-          : `${styles.projectContainer} ${styles.projectContainerReverse}`
+          `${styles.projectContainer} ${props.isReversed ? styles.projectContainerReverse : ""}`
       }
     >
-      <div className={styles.projectContainer__image}>
+      <div className={`${styles.projectContainer__image} ${props.isReversed ? styles.reverseOrderImg: ""}`}>
+        <p className={`${styles.textInfo} ${showInfo ? styles.textInfoReveal : ""}`}>{props.info}</p>
         <img src={props.imageUrl} alt={props.imageAlt} />
       </div>
       <div className={styles.projectContainer__info}>
         <h2 className={styles.projectContainerTitle}>{props.title}</h2>
-      <p className={styles.textInfo}>{props.info}</p>
-        {/* <div className={styles.info}>INFO</div> */}
+        <div className={styles.info} onMouseEnter ={showText} onMouseLeave = {hideText}>MORE INFO</div>
         <SkillsTechList techstackIcons={props.techstackIcons} />
         <div className={styles.projectContainerBtnHolder}>
           <a href={props.projectViewUrl} target="_blank" rel="noopener noreferrer">
