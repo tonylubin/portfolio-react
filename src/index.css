@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;700&display=swap');
 @import-normalize;
 
 a {
@@ -34,6 +34,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p,
 figure,
 blockquote,
