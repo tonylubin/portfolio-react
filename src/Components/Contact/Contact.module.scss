@@ -45,11 +45,26 @@
     transform: scale(1.2);
 }
 
-@media (max-width: 480px) {
+
+
+@media screen and (max-width: 640px) {
+
     .emailHeading {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        justify-content: center;
     }
+
     .contactSection {
         padding-top: 4rem;
+
+        &__container {
+            flex-direction: column;
+            align-items: center;
+            gap: 3rem;
+        }
+
+        .iconContainer {
+            gap: 3.5rem;
+        }
     }
 }

@@ -30,10 +30,16 @@
     }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 996px) {
+    .landingPage__greeting {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 640px) {
     .landingPage__greeting {
         width: 80%;
         margin: auto;
-        font-size: 1.1rem;
+        font-size: 1.5rem;
     }
 }

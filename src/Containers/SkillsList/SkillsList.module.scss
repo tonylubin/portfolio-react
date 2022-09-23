@@ -11,8 +11,14 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
   .skillsList__container {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .skillsList {
+    width: 90%;
   }
 }
