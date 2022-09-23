@@ -2,7 +2,8 @@ import React from "react";
 import styles from "./NavBar.module.scss";
 import { Link } from "react-scroll";
 
-const NavBar = () => {
+const NavBar = ({ handleClick }) => {
+
   return (
     <nav className={styles.navbar}>
       <Link
@@ -12,6 +13,7 @@ const NavBar = () => {
         smooth={true}
         duration={2000}
         offset={-50}
+        onClick={handleClick}
       >
         About
       </Link>
@@ -22,6 +24,7 @@ const NavBar = () => {
         smooth={true}
         duration={2000}
         offset={-50}
+        onClick={handleClick}
       >
         Projects
       </Link>
@@ -32,6 +35,7 @@ const NavBar = () => {
         smooth={true}
         duration={2000}
         offset={-50}
+        onClick={handleClick}
       >
         Skills
       </Link>
@@ -42,6 +46,7 @@ const NavBar = () => {
         smooth={true}
         duration={2000}
         offset={-50}
+        onClick={handleClick}
       >
         Contact
       </Link>
