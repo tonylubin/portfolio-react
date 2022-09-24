@@ -4,12 +4,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 12rem;
+    gap: 30rem;
     margin: 40vh auto;
 }
 
 @media (max-width: 640px) {
     .projectsDisplay {
         margin: 30vh auto;
+        gap: 15rem;
     } 
 }

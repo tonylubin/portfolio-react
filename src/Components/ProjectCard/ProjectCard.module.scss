@@ -104,7 +104,7 @@
 @media screen and (max-width: 996px)  {
     .projectContainer {
         grid-template-columns: 1fr;
-        
+
         &__image {
             max-width: 100%;
             padding: 2rem;
@@ -138,6 +138,25 @@
 
     .reverseOrderImg {
         order: initial;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    
+    .projectContainer {
+        gap: 0;
+        
+        &__image {
+            padding: 0;
+        }
+
+        &__info {
+            padding: 1rem;
+        }
+    }
+
+    .textInfo {
+        padding: 1rem;
     }
   }
 
