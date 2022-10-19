@@ -5,6 +5,7 @@ import battleshipsImg from "../assets/images/alienbattleships-laptopscreen.png";
 import myTodosImg from "../assets/images/mytodos-laptopscreen.png";
 import beerImg from "../assets/images/beer-finder-app.png";
 import moneySaverImg from "../assets/images/money-saver-app.png";
+import spaceTourism from "../assets/images/space-tourism-laptopscreen.png";
 import { techSkills, expressSvg } from "./skillsData";
 
 
@@ -46,7 +47,7 @@ const projectInfo = [
     code: "https://github.com/tonylubin/Beer-Finder-Punk-api",
     view: "https://tonylubin.github.io/Beer-Finder-Punk-api",
     title: "BrewDog Beer Finder App",
-    info: 'A project built in React that allows the user to search for Punk beers, by letter/name or filter functionality, via fetch requests to the Punk Beer API. The results are shown to the user as a flipable "beer card" with extra info about the beer on the back of the card. Project also incorporates, where suitable, unit testing using jest/enzyme.',
+    info: 'A project built in React that allows the user to search for Punk beers, by letter/name or filter functionality, via fetch requests to the Punk Beer API. Designed mobile-first, with the results shown to the user as a flipable "beer card", with extra info about the beer on the back of the card. Project also incorporates, where suitable, unit testing using jest/enzyme.',
     imageUrl: beerImg,
     imageAlt: "Screenshot of a beer finder app using BrewDogs punk beers Api",
     isReversed: true,
@@ -139,13 +140,36 @@ const projectInfo = [
     ],
   },
   {
+    code: "https://github.com/tonylubin/space_tourism",
+    view: "https://tonylubin.github.io/space_tourism",
+    title: "Space Tourism",
+    info: 'A Frontend Mentor challenge to build out a multi-page website from Figma designs with a mobile-first approach for various screen sizes. Built with React and using react-router for navigation, which includes nested routing. Adopted BEM practice, along with Sass and CSS modules for styling, and pulling in data from a local json file.',
+    imageUrl: spaceTourism,
+    imageAlt: "Screenshot of space tourism website example",
+    isReversed: true,
+    techstackIcons: [
+      {
+        viewBox: index("React").viewBox,
+        svgInfo: index("React").svgInfo
+      },
+      {
+        viewBox: index("Javascript").viewBox,
+        svgInfo: index("Javascript").svgInfo
+      },
+      {
+        viewBox: index("Sass").viewBox,
+        svgInfo: index("Sass").svgInfo
+      },
+    ],
+  },
+  {
     code: "https://github.com/tonylubin/JS---Aliens-Game-OOP",
     view: "https://tonylubin.github.io/JS---Aliens-Game-OOP",
     title: "Alien BattleShips - JS OOP Game",
     imageAlt: "Screenshot of BattleShips OOP Game",
     info: 'A minimalist/retro designed project, tasked to be written within 150 lines of code in Vanilla JS. Based around the classic battleships game and built according to the principles of the "OOP" paradigm with added DOM manipulation. Created on a co-ordinated system using CSS Grid, targets hit are visualised by a "flashing animation" and the game is over when the mothership is destroyed.',
     imageUrl: battleshipsImg,
-    isReversed: true,
+    isReversed: false,
     techstackIcons: [
       {
         viewBox: index("Html5").viewBox,
@@ -168,7 +192,7 @@ const projectInfo = [
     imageAlt: "Screenshot of a JS Calculator App",
     info: "A working calculator with addition, multiplication, subtraction, division and the added functionality of decimal points and percentages. The calculator has a 'clear' button to reset values and a 'backspace' button to delete the last value entered on screen. Designed in a neomorphic style using Sass, the Bem convention and written in vanilla Javascript.",
     imageUrl: calcImg,
-    isReversed: false,
+    isReversed: true,
     techstackIcons: [
       {
         viewBox: index("Html5").viewBox,
@@ -183,7 +207,7 @@ const projectInfo = [
         svgInfo: index("Sass").svgInfo
       },
     ],
-  },
+  }
 ];
 
 export default projectInfo;
