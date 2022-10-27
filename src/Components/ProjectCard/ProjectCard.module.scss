@@ -45,6 +45,7 @@
 .projectContainerTitle {
     font-size: 1.8rem;
     text-align: left;
+    font-weight: 400;
 }
 
 .textInfo {
@@ -54,6 +55,7 @@
     grid-area: 1 / 1 / 2 / 2;
     visibility: hidden;
     font-size: 1.2rem;
+    font-weight: 200;
 }
 
 .textInfoReveal {
@@ -78,6 +80,8 @@
     padding: 1rem 1.5rem;
     margin: 2rem 0 4rem 0;
     width: max-content;
+    font-weight: 200;
+    cursor: default;
 }
 
 @media screen and (max-width: 1279px) {

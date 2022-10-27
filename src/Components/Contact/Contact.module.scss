@@ -30,12 +30,15 @@
     &__link {
         text-decoration-line: none;
         color: $secondary-text-color;
+        font-weight: 200;
+    }
+
+    > h3 {
+        padding-bottom: 0.1em;
+        font-weight: 400;
     }
 }
 
-.emailHeading > h3 {
-    padding-bottom: 0.1em;
-}
 
 .emailHeading__link:hover {
     color: $section-heading-color;
