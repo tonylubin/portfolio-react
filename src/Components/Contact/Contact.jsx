@@ -9,7 +9,7 @@ const Contact = () => {
   const urls = {
     github: "http://github.com/tonylubin",
     linkedin: "http://linkedin.com",
-    email: "anthonylubin@yahoo.co.uk",
+    email: "anthonylubin@outlook.com",
   };
 
   return (
