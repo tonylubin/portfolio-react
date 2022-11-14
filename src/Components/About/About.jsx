@@ -8,7 +8,7 @@ const About = () => {
       <SectionHeader heading="About" />
       <div className={styles.aboutSection__textHolder}>
         <p>
-          Hi there<span className={styles.wave}>&#128075;&#127996;</span>, let me introduce myself briefly, my name is Anthony, and with the aim of becoming a developer, I have successfully completed a software development bootcamp course with Nology.
+          Hi there<span className={styles.wave}>&#128075;&#127996;</span>, let me introduce myself briefly, my name is Anthony, and with the aim of becoming a developer, I have successfully completed a software development bootcamp course with Nology. The course focused on modern market driven languages, frameworks and tools for web development, during which I learnt to develop responsive web apps with the aim of writing DRY code, primarily using JS and React. Became familiar with the fundamentals of programming by adopting the principles of TDD, semantic html, unit testing, OOP and functional programming that I was taught.
         </p>
         <p>
           After my university studies, in London and Paris, I went on to establish my own business in the automotive sector. The combination of being "tech-minded" and the soft-skills gained from running a business feels like a skill-set that is well suited to working in the tech across all sectors.<br /> 
