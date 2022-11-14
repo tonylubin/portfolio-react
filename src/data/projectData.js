@@ -1,11 +1,11 @@
-import quizImg from "../assets/images/fortunegame-laptopscreen.png";
-import calcImg from "../assets/images/js-calc-laptopscreen.png";
-import translatorImg from "../assets/images/morsecode-laptopscreen.png";
-import battleshipsImg from "../assets/images/alienbattleships-laptopscreen.png";
-import myTodosImg from "../assets/images/mytodos-laptopscreen.png";
-import beerImg from "../assets/images/beer-finder-app.png";
-import moneySaverImg from "../assets/images/money-saver-app.png";
-import spaceTourism from "../assets/images/space-tourism-laptopscreen.png";
+import quizImg from "../assets/images/Quiz-laptop-screenshot.png";
+import calcImg from "../assets/images/Calculator-laptop-screenshot.png";
+import translatorImg from "../assets/images/Morse-code-laptop-screenshot.png";
+import battleshipsImg from "../assets/images/Aliens-laptop-screenshot.png";
+import myTodosImg from "../assets/images/MyTodos-laptop-screenshot.png";
+import beerImg from "../assets/images/Beer-finder-laptop-screenshot.png";
+import moneySaverImg from "../assets/images/Money-saver-laptop-screenshot.png";
+import spaceTourism from "../assets/images/Space-tourism-laptop-screenshot.png";
 import { techSkills, expressSvg } from "./skillsData";
 
 
