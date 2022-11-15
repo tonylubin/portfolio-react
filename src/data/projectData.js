@@ -94,6 +94,29 @@ const projectInfo = [
     ],
   },
   {
+    code: "https://github.com/tonylubin/space_tourism",
+    view: "https://tonylubin.github.io/space_tourism",
+    title: "Space Tourism",
+    info: 'A Frontend Mentor challenge to build out a multi-page website from Figma designs with a mobile-first approach for various screen sizes. Built with React and using react-router for navigation, which includes nested routing. Adopted BEM practice, along with Sass and CSS modules for styling, and pulling in data from a local json file.',
+    imageUrl: spaceTourism,
+    imageAlt: "Screenshot of space tourism website example",
+    isReversed: true,
+    techstackIcons: [
+      {
+        viewBox: index("React").viewBox,
+        svgInfo: index("React").svgInfo
+      },
+      {
+        viewBox: index("Javascript").viewBox,
+        svgInfo: index("Javascript").svgInfo
+      },
+      {
+        viewBox: index("Sass").viewBox,
+        svgInfo: index("Sass").svgInfo
+      },
+    ],
+  },
+  {
     code: "https://github.com/tonylubin/JS---Quiz-Game.git",
     view: "https://tonylubin.github.io/JS---Quiz-Game",
     title: "Spin a Fortune - JS Quiz Game ",
@@ -128,29 +151,6 @@ const projectInfo = [
       {
         viewBox: index("Html5").viewBox,
         svgInfo: index("Html5").svgInfo
-      },
-      {
-        viewBox: index("Javascript").viewBox,
-        svgInfo: index("Javascript").svgInfo
-      },
-      {
-        viewBox: index("Sass").viewBox,
-        svgInfo: index("Sass").svgInfo
-      },
-    ],
-  },
-  {
-    code: "https://github.com/tonylubin/space_tourism",
-    view: "https://tonylubin.github.io/space_tourism",
-    title: "Space Tourism",
-    info: 'A Frontend Mentor challenge to build out a multi-page website from Figma designs with a mobile-first approach for various screen sizes. Built with React and using react-router for navigation, which includes nested routing. Adopted BEM practice, along with Sass and CSS modules for styling, and pulling in data from a local json file.',
-    imageUrl: spaceTourism,
-    imageAlt: "Screenshot of space tourism website example",
-    isReversed: true,
-    techstackIcons: [
-      {
-        viewBox: index("React").viewBox,
-        svgInfo: index("React").svgInfo
       },
       {
         viewBox: index("Javascript").viewBox,
