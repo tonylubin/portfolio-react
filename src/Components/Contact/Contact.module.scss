@@ -22,10 +22,10 @@
     display: flex;
     align-items: flex-end;
     color: $primary-text-color;
-    font-size: 1.5rem;
     width: min-content;
     flex-wrap: wrap;
     gap: 1.5rem;
+    font-size: 1.8rem;
 
     &__link {
         text-decoration-line: none;
@@ -34,8 +34,8 @@
     }
 
     > h3 {
-        padding-bottom: 0.1em;
         font-weight: 400;
+        font-size: 2rem;
     }
 }
 
