@@ -2,7 +2,7 @@ import React from "react";
 import ReactTooltip from "react-tooltip";
 import SectionHeader from "../SectionHeader/SectionHeader";
 import SkillIcon from "../SkillIcon/SkillIcon";
-import { gitHubSvg, linkedInSvg, emailSvg, instaSvg } from "../../data/skillsData";
+import { gitHubSvg, emailSvg, instaSvg } from "../../data/skillsData";
 import styles from "./Contact.module.scss";
 
 const Contact = () => {
@@ -41,7 +41,7 @@ const Contact = () => {
           <ReactTooltip id="gh" place="bottom" effect="solid">
             Vist my Github page
           </ReactTooltip>
-          <a
+          {/* <a
             className={styles.linkHover}
             href={urls.linkedin}
             target="_blank"
@@ -53,7 +53,7 @@ const Contact = () => {
           </a>
           <ReactTooltip id="lkdn" place="bottom" effect="solid">
             Vist my LinkedIn page
-          </ReactTooltip>
+          </ReactTooltip> */}
           <a
             className={styles.linkHover}
             href={urls.instagram}
