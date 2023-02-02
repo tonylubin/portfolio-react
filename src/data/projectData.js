@@ -123,7 +123,7 @@ const projectInfo = [
     imageAlt: "Screenshot of a wheel of fortune type quiz game",
     info: 'Approached with the mindset of mobile-first, this Javascript project is based upon the classic quiz game "wheel of fortune". It is a two player word guessing game, whereby highest score wins. Incorrect guesses and player turns are handled "automatically" i.e. without user input. Players spin an animated wheel for points and guess letters via the projects purpose built keyboard.',
     imageUrl: quizImg,
-    isReversed: true,
+    isReversed: false,
     techstackIcons: [
       {
         viewBox: index("Html5").viewBox,
@@ -146,7 +146,7 @@ const projectInfo = [
     imageAlt: "Screenshot of a Morse code translator application",
     info: 'Tasked with creating a translator app, which adopts an "OOP" approach. Takes in user input for the translation between two languages => English/Morse code and vice-versa.',
     imageUrl: translatorImg,
-    isReversed: false,
+    isReversed: true,
     techstackIcons: [
       {
         viewBox: index("Html5").viewBox,
