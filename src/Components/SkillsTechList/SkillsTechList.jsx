@@ -7,11 +7,10 @@ const SkillsTechList = ({ techstackIcons }) => {
 
   const getSkillsTechStack = techstackIcons.map((techstack, index) => (
 
-    <SkillsCard 
-    key = {index}
-    icon = {<SkillIcon svgInfo={techstack.svgInfo} viewBox={techstack.viewBox} width="2em" height="2em"/>}
-
-    />
+        <SkillsCard 
+        key = {index}
+        icon = {<SkillIcon svgInfo={techstack.svgInfo} viewBox={techstack.viewBox} width="2em" height="2em"/>}
+        />
 
   ));    
 
