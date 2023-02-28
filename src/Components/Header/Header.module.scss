@@ -11,6 +11,10 @@
     position: fixed;
     z-index: 1;
 
+    &__menu {
+        cursor: pointer;
+    }
+
     p {
         color: $secondary-text-color;
         font-size: 1.5rem;

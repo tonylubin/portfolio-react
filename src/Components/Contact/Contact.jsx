@@ -36,6 +36,7 @@ const Contact = () => {
             data-tooltip-id="gh"
             data-tooltip-content="Vist my Github page"
             data-tooltip-place="bottom"
+            data-tooltip-variant="info"
           >
             <SkillIcon width="2em" height="2em" viewBox={gitHubSvg.viewBox} svgInfo={gitHubSvg.svgInfo}/>
           </a>
@@ -48,6 +49,7 @@ const Contact = () => {
             data-tooltip-id="lkdn"
             data-tooltip-content="Vist my LinkedIn page"
             data-tooltip-place="bottom"
+            data-tooltip-variant="info"
           >
             <SkillIcon width="2em" height="2em" viewBox={linkedInSvg.viewBox} svgInfo={linkedInSvg.svgInfo}/>
           </a>
@@ -61,6 +63,7 @@ const Contact = () => {
             data-tooltip-id="insta"
             data-tooltip-content="Take a peek at my Insta"
             data-tooltip-place="bottom"
+            data-tooltip-variant="info"
           >
             <SkillIcon width="2em" height="2em" viewBox={instaSvg.viewBox} svgInfo={instaSvg.svgInfo}/>
           </a>
