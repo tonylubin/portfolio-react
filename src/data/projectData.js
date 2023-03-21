@@ -6,6 +6,7 @@ import myTodosImg from "../assets/images/MyTodos-laptop-screenshot.png";
 import beerImg from "../assets/images/Beer-finder-laptop-screenshot.png";
 import moneySaverImg from "../assets/images/Money-saver-laptop-screenshot.png";
 import spaceTourism from "../assets/images/Space-tourism-laptop-screenshot.png";
+import portfolio from "../assets/images/portfolio-screenshot.png";
 import { techSkills, expressSvg } from "./skillsData";
 
 
@@ -197,6 +198,28 @@ const projectInfo = [
       {
         viewBox: index("Html5").viewBox,
         svgInfo: index("Html5").svgInfo
+      },
+      {
+        viewBox: index("Javascript").viewBox,
+        svgInfo: index("Javascript").svgInfo
+      },
+      {
+        viewBox: index("Sass").viewBox,
+        svgInfo: index("Sass").svgInfo
+      },
+    ],
+  },
+  {
+    code: "https://github.com/tonylubin/portfolio-react",
+    title: "Personal Portfolio",
+    info: "Personal portfolio to showcase the projects I have built and to demonstrate the skills I've acquired thus far. Responsive SPA website written in React, SASS (CSS Modules), CSS Grid & Flexbox for positioning/styling, transitions for naviagtion menu and using the BEM convention. NPM packages utilised for type writer animation, smooth scrolling effect and tooltips.",
+    imageUrl: portfolio,
+    imageAlt: "Screenshot of personal portfolio website example",
+    isReversed: false,
+    techstackIcons: [
+      {
+        viewBox: index("React").viewBox,
+        svgInfo: index("React").svgInfo
       },
       {
         viewBox: index("Javascript").viewBox,
