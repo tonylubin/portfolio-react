@@ -21,7 +21,7 @@ const projectInfo = [
     code: "https://github.com/tonylubin/webscraper---node-js.git",
     view: null,
     title: "Money Saver App",
-    info: "An web scraping app, using Puppeteer, that allows a user to set up a price alert for a product from the retailer Boots. Written entirely for the back-end in Node js with the server built on Express. Styled with Bootstrap and html pages server-side rendered with EJS. Alerts are stored & modelled with Mongoose & MongoDb. App is tasked scheduled (cron job) to run and sends a user an email when the product is cheaper.",
+    info: "An web scraping app, using an automated browser tool(Puppeteer), that allows a user to set up a price alert for a product from the retailer Boots. Written entirely for the back-end in Node js with the server built on Express. Styled with Bootstrap and html pages server-side rendered with EJS. Alerts are stored & modelled with Mongoose & MongoDb. App is tasked scheduled (cron job) to run and sends a user an email when the product is cheaper.",
     imageUrl: moneySaverImg,
     imageAlt: "Screenshot of a webscraping app called Money saver app",
     isReversed: false,
