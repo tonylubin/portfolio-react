@@ -1,8 +1,7 @@
-import React from "react";
 import SectionHeader from "../../Components/SectionHeader/SectionHeader";
 import ProjectCard from "../../Components/ProjectCard/ProjectCard";
 import styles from "./ProjectsShowcase.module.scss";
-import cardData from "../../data/projectData.js";
+import cardData from "../../data/projectData.json";
 
 const ProjectsShowcase = () => {
 
@@ -15,8 +14,8 @@ const ProjectsShowcase = () => {
       imageUrl={card.imageUrl}
       imageAlt={card.imageAlt}
       isReversed={card.isReversed}
-      projectViewUrl={card.view}
-      projectCodeUrl={card.code}
+      projectViewUrl={card.projectViewUrl}
+      projectCodeUrl={card.projectCodeUrl}
       techstackIcons={card.techstackIcons}
     />   
 

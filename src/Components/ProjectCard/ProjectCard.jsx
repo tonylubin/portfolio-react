@@ -1,8 +1,9 @@
-import React, { useState } from "react";
-import Button from "../Button/Button";
+import { useState } from "react";
 import SkillsTechList from "../SkillsTechList/SkillsTechList";
-import { codeSvg, viewSvg } from "../../data/skillsData.js";
+import Code from "../../Components/SvgIconPaths/Code";
+import Link from "../../Components/SvgIconPaths/Link";
 import styles from "./ProjectCard.module.scss";
+import CardLink from "../CardLink/CardLink";
 
 const ProjectCard = (props) => {
   const {
@@ -53,25 +54,17 @@ const ProjectCard = (props) => {
         <SkillsTechList techstackIcons={techstackIcons} />
         <div className={styles.projectContainerBtnHolder}>
           {projectViewUrl ? (
-            <a href={projectViewUrl} target="_blank" rel="noopener noreferrer">
-              <Button
-                text="view"
-                width="1.6rem"
-                height="1.6rem"
-                viewBox={viewSvg.viewBox}
-                svgInfo={viewSvg.svgInfo}
-              />
-            </a>
-          ) : null}
-          <a href={projectCodeUrl} target="_blank" rel="noopener noreferrer">
-            <Button
-              text="code"
-              width="1.6rem"
-              height="1.6rem"
-              viewBox={codeSvg.viewBox}
-              svgInfo={codeSvg.svgInfo}
+            <CardLink
+              url={projectViewUrl}
+              text={"View"}
+              icon={<Link width="1.6rem" height="1.6rem" />}
             />
-          </a>
+          ) : null}
+          <CardLink
+            url={projectCodeUrl}
+            text={"Code"}
+            icon={<Code width="1.6rem" height="1.6rem" />}
+          />
         </div>
       </div>
     </article>

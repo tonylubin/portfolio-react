@@ -1,16 +1,14 @@
+@use '../../sass/' as *;
+
 .projectsDisplay {
-    width: 100%;
-    display: flex;
+    max-width: 80%;
+    @include flexCenter();
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 30rem;
-    margin: 40vh auto;
 }
 
 @media (max-width: 640px) {
     .projectsDisplay {
-        margin: 30vh auto;
         gap: 15rem;
     } 
 }

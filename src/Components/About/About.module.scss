@@ -1,21 +1,18 @@
-@use '../../assets/styling/variables.scss' as *;
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+@use '../../sass/' as *;
 
 .aboutSection {
-    width: 100%;
-    margin-bottom: 30vh;
+    width: 60%;
 
     &__textHolder {
-        width: 60%;
-        margin: auto;
+        width: 100%;
 
         > p {
-            color: $primary-text-color;
+            color: $primaryTextColor;
             line-height: 1.6;
             text-align: left;
             font-size: 1.2rem;
             margin-bottom: 1.2rem;
-            font-family: 'IBM Plex Sans', sans-serif;
+            font-family: $ibmPlex;
         }
 
         > p:first-child {
@@ -47,7 +44,6 @@
   @media only screen and (max-width: 640px)  {
     .aboutSection {
         font-size: 1rem;
-        margin-bottom: 30vh;
 
         &__textHolder {
             width: 80%;

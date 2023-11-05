@@ -1,10 +1,10 @@
-@use '../../assets/styling/variables.scss' as *;
+@use '../../sass/' as *;
 
 .heading {
     width: 100%;
     height: 10vh;
     padding-right: 2rem;
-    background-color: $primary-background-color;
+    background-color: $primaryBlack;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -16,7 +16,7 @@
     }
 
     p {
-        color: $secondary-text-color;
+        color: $secondaryTextColor;
         font-size: 1.5rem;
     }
 }

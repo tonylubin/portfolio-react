@@ -1,18 +1,16 @@
-@use '../../assets/styling/variables.scss' as *;
+@use '../../sass/' as *;
 
 .card {
     width: auto;
     height: auto;
-    color: $primary-text-color;
-    display: flex;
+    color: $primaryTextColor;
+    @include flexCenter();
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 0.5rem;
     padding: 1.5rem 0;
 
     &__title {
-        color: $primary-text-color;
+        color: $primaryTextColor;
         font-size: 1rem;
         font-weight: 400;
     }

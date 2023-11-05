@@ -1,0 +1,92 @@
+[
+  {
+    "projectCodeUrl": "https://github.com/tonylubin/music-library",
+    "projectViewUrl": "https://my-vinyl-library.vercel.app",
+    "title": "The Vinyl Lib.",
+    "info": "A full stack desktop app for organizing & playing your music catalogue, similar to itunes. Digitized my vinyl records then upload audio & record cover image using Cloudinary API. React hook form for storing track details in a postgresql database. Built an audio player with an EQ analyzer. Search functionality and ability to create playlists.",
+    "imageUrl": "src/assets/images/music-player-screenshot.png",
+    "imageAlt": "Screenshot of a webscraping app called the vinyl library",
+    "isReversed": false,
+    "techstackIcons": ["nextjs", "tailwind", "postgresql"] 
+  },
+  {
+    "projectCodeUrl": "https://github.com/tonylubin/Beer-Finder-Punk-api",
+    "projectViewUrl": "https://tonylubin.github.io/Beer-Finder-Punk-api",
+    "title": "BrewDog Beer Finder App",
+    "info": "A project built in React that allows the user to search for Punk beers, by letter/name or filter functionality, via fetch requests to the Punk Beer API. Designed mobile-first, with the results shown to the user as a flipable 'beer card', with extra info about the beer on the back of the card. Project also incorporates, where suitable, unit testing using jest/enzyme.",
+    "imageUrl": "src/assets/images/Beer-finder-laptop-screenshot.png",
+    "imageAlt": "Screenshot of a beer finder app using BrewDogs punk beers Api",
+    "isReversed": true,
+    "techstackIcons": ["react", "sass"]
+  },
+  {
+    "projectCodeUrl": "https://github.com/tonylubin/webscraper---node-js.git",
+    "projectViewUrl": null,
+    "title": "Money Saver App",
+    "info": "An web scraping app, using an automated browser tool(Puppeteer), that allows a user to set up a price alert for a product from the retailer Boots. Written entirely for the back-end in Node js with the server built on Express. Styled with Bootstrap and html pages server-side rendered with EJS. Alerts are stored & modelled with Mongoose & MongoDb. App is tasked scheduled (cron job) to run and sends a user an email when the product is cheaper.",
+    "imageUrl": "src/assets/images/Money-saver-laptop-screenshot.png",
+    "imageAlt": "Screenshot of a webscraping app called Money saver app",
+    "isReversed": false,
+    "techstackIcons": ["nodejs", "express", "mongodb", "bootstrap"] 
+  },
+  {
+    "projectCodeUrl": "https://github.com/tonylubin/todos-app",
+    "projectViewUrl": "https://mytodosapp-4e40f.firebaseapp.com/",
+    "title": "MyTodos App",
+    "info": "An app for a user to keep track of tasks. Built with a connection to Firebase as a BaaS to allow CRUD operations, a user can write, update and delete a todo, as well as being able to show a todo as completed. Furthermore, authentication was added, thus to utilise the app a user must be registered/logged in. This is handled through login/registration form(s) using firebase auth.",
+    "imageUrl": "src/assets/images/MyTodos-laptop-screenshot.png",
+    "imageAlt": "Screenshot of a app that deals with todos",
+    "isReversed": true,
+    "techstackIcons": ["react", "firebase", "sass"]
+  },
+  {
+    "projectCodeUrl": "https://github.com/tonylubin/space_tourism",
+    "projectViewUrl": "https://tonylubin.github.io/space_tourism",
+    "title": "Space Tourism",
+    "info": "A Frontend Mentor challenge to build out a multi-page website from Figma designs with a mobile-first approach for various screen sizes. Built with React and using react-router for navigation, which includes nested routing. Adopted BEM practice, along with Sass and CSS modules for styling, and pulling in data from a local json file.",
+    "imageUrl": "src/assets/images/Space-tourism-laptop-screenshot.png",
+    "imageAlt": "Screenshot of space tourism website example",
+    "isReversed": false,
+    "techstackIcons": ["react", "sass"]
+  },
+  {
+    "projectCodeUrl": "https://github.com/tonylubin/JS---Quiz-Game.git",
+    "projectViewUrl": "https://tonylubin.github.io/JS---Quiz-Game",
+    "title": "Spin a Fortune - JS Quiz Game ",
+    "imageAlt": "Screenshot of a wheel of fortune type quiz game",
+    "info": "Approached with the mindset of mobile-first, this Javascript project is based upon the classic quiz game 'wheel of fortune'. It is a two player word guessing game, whereby highest score wins. Incorrect guesses and player turns are handled 'automatically' i.e. without user input. Players spin an animated wheel for points and guess letters via the projects purpose built keyboard.",
+    "imageUrl": "src/assets/images/Quiz-laptop-screenshot.png",
+    "isReversed": true,
+    "techstackIcons": ["html5", "sass", "javascript"]
+  },
+  {
+    "projectCodeUrl": "https://github.com/tonylubin/JS---Morse-Code-Translator",
+    "projectViewUrl": "https://tonylubin.github.io/JS---Morse-Code-Translator",
+    "title": "Morse Code Translator App",
+    "imageAlt": "Screenshot of a Morse code translator application",
+    "info": "Tasked with creating a translator app, which adopts an 'OOP' approach. Takes in user input for the translation between two languages => English/Morse code and vice-versa.",
+    "imageUrl": "src/assets/images/Morse-code-laptop-screenshot.png",
+    "isReversed": false,
+    "techstackIcons": ["html5", "sass", "javascript"]
+  },
+  {
+    "projectCodeUrl": "https://github.com/tonylubin/JS---Aliens-Game-OOP",
+    "projectViewUrl": "https://tonylubin.github.io/JS---Aliens-Game-OOP",
+    "title": "Alien BattleShips - JS OOP Game",
+    "imageAlt": "Screenshot of BattleShips OOP Game",
+    "info": "A minimalist/retro designed project, tasked to be written within 150 lines of code in Vanilla JS. Based around the classic battleships game and built according to the principles of the 'OOP' paradigm with added DOM manipulation. Created on a co-ordinated system using CSS Grid, targets hit are visualised by a 'flashing animation' and the game is over when the mothership is destroyed.",
+    "imageUrl": "src/assets/images/Aliens-laptop-screenshot.png",
+    "isReversed": true,
+    "techstackIcons": ["html5", "sass", "javascript"]
+  },
+  {
+    "projectCodeUrl": "https://github.com/tonylubin/JS---Calculator",
+    "projectViewUrl": "https://tonylubin.github.io/JS---Calculator",
+    "title": "JS Calculator App",
+    "imageAlt": "Screenshot of a JS Calculator App",
+    "info": "A working calculator with addition, multiplication, subtraction, division and the added functionality of decimal points and percentages. The calculator has a 'clear' button to reset values and a 'backspace' button to delete the last value entered on screen. Designed in a neomorphic style using Sass, the Bem convention and written in vanilla Javascript.",
+    "imageUrl": "src/assets/images/Calculator-laptop-screenshot.png",
+    "isReversed": false,
+    "techstackIcons": ["html5", "sass", "javascript"]
+  }
+]

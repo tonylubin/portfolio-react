@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 import styles from "./About.module.scss";
 import SectionHeader from "../SectionHeader/SectionHeader";
 
@@ -8,7 +8,7 @@ const About = () => {
       <SectionHeader heading="About" />
       <div className={styles.aboutSection__textHolder}>
         <p>
-          Hi there<span className={styles.wave}>&#128075;&#127996;</span>, let me introduce myself briefly, my name is Anthony, and with the aim of becoming a developer, I embarked on a software development bootcamp with _Nology. The course focused on modern market-driven languages, frameworks and tools for web development, during which I learnt to develop responsive web apps with the aim of writing clean DRY code, primarily using JS and React. I became familiar with the fundamentals of programming by adopting the principles of TDD, semantic html, unit testing, OOP and functional programming.
+          Hi there<span className={styles.wave}>&#128075;&#127996;</span>, let me introduce myself briefly, my name is Anthony, and with the aim of becoming a developer, I embarked on a software development bootcamp with _Nology. The training course focused on modern market-driven languages, frameworks and tools for web development, during which I learnt to develop responsive web apps with the aim of writing clean code, primarily using JS and React. I became familiar with the fundamentals of programming by adopting the principles of TDD, semantic html, unit testing, OOP and functional programming.
         </p>
         <p>
           After my university studies, I went on to establish my own business in the automotive sector in London. Managing a business, you learn the need to adopt different viewpoints i.e those of the business and client, in order to provide satisfying outcomes for all parties. Working in an ever-increasing technology driven environment it became apparent that I had to think along the lines of "why/how the software program is designed/functions?" in order to be effective and efficient (adapt/evolve or fade away...).
