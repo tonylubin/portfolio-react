@@ -1,8 +1,9 @@
-@use '../../assets/styling/variables.scss' as *;
+@use '../../sass/' as *;
 
 .sectionTitle {
-    color: $section-heading-color;
+    color: $sectionHeadingColor;
     padding: 5rem 0;
     font-size: 2.5rem;
     font-weight: 700;
+    text-align: center;
 }

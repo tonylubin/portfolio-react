@@ -1,20 +1,19 @@
-import React from "react";
 import SectionHeader from "../../Components/SectionHeader/SectionHeader";
 import SkillsCard from "../../Components/SkillsCard/SkillsCard";
 import styles from "./SkillsList.module.scss";
+import Icon from "../../Components/Icon/Icon";
 import { techSkills } from "../../data/skillsData";
-import SkillIcon from "../../Components/SkillIcon/SkillIcon";
+import { Zoom } from "react-awesome-reveal";
 
 const SkillsList = () => {
 
-  const getSkillsCards = techSkills.map((skillcard, index) => (
-
-    <SkillsCard
-      key={index}
-      icon={<SkillIcon svgInfo={skillcard.svgInfo} viewBox={skillcard.viewBox} width="3em" height="3em"/>}
-      title={skillcard.title}
-    />
-
+  const getSkillsCards = techSkills.map((skill, index) => (
+    <Zoom key={index}>
+      <SkillsCard
+        icon={<Icon path={skill.icon} classname={styles.icon}/>}
+        title={skill.title}
+      />
+    </Zoom>
   ));
 
   return (
@@ -29,11 +28,11 @@ const SkillsList = () => {
         <h3>FRONTEND</h3>
         <p><span className={styles.skillsExtra__info}>HTML5:</span> including semantic html and accessibility best practices</p>
         <p><span className={styles.skillsExtra__info}>CSS3:</span> responsive design, Flexbox, CSS Grid, SASS, CSS Modules & Frameworks</p>
-        <p><span className={styles.skillsExtra__info}>JAVASCRIPT:</span> ES6+, Asynchronous & Functional programming, OOP(Classes), RESTful API's, DOM manipulation, JSON</p>
-        <p><span className={styles.skillsExtra__info}>REACT:</span> hooks, context, functional components</p>
+        <p><span className={styles.skillsExtra__info}>JAVASCRIPT:</span> ES6+, Asynchronous & Functional programming, OOP(Classes), RESTful API&apos;s, DOM manipulation, JSON</p>
+        <p><span className={styles.skillsExtra__info}>REACT & NEXTJS:</span> hooks, context, functional components</p>
         <h3>BACKEND</h3>
         <p><span className={styles.skillsExtra__info}>NODE.JS:</span> vanilla, Express, EJS</p>
-        <p><span className={styles.skillsExtra__info}>DATABASES:</span> NoSQL - MongoDB & Mongoose, Cloud Firestore</p>
+        <p><span className={styles.skillsExtra__info}>DATABASES:</span> NoSQL - MongoDB & Mongoose, Cloud Firestore // <span> SQL - PostgreSQL</span></p>
         <p><span className={styles.skillsExtra__info}>FIREBASE:</span> hosting & authentication</p>
         <h3>FUNDAMENTALS</h3>
         <p><span className={styles.skillsExtra__info}>VERSION CONTROL:</span> Git & Github</p>

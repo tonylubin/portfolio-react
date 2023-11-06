@@ -1,0 +1,14 @@
+@use "../../sass/" as *;
+
+.link {
+  color: $terminalText;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link:hover, .link:active {
+  cursor: pointer;
+  transform: scale(1.2);
+}

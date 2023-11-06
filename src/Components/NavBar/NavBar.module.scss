@@ -1,4 +1,4 @@
-@use '../../assets/styling/variables.scss' as *;
+@use '../../sass/' as *;
 
 .navbar {
   width: 100%;
@@ -11,7 +11,7 @@
   font-size: 1.25rem;
   
   &__link {
-    color: $secondary-text-color;
+    color: $primaryBlack;
     text-decoration: none;
     font-weight: 700;
   }

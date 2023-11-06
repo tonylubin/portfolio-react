@@ -1,8 +1,7 @@
-@use '../../assets/styling/variables.scss' as *;
+@use '../../sass/' as *;
 
 .contactSection {
     width: 80%;
-    margin: auto;
     padding-bottom: 4rem;
     
     &__container {
@@ -21,7 +20,7 @@
 .emailHeading {
     display: flex;
     align-items: flex-end;
-    color: $primary-text-color;
+    color: $primaryTextColor;
     width: min-content;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -29,7 +28,7 @@
 
     &__link {
         text-decoration-line: none;
-        color: $secondary-text-color;
+        color: $terminalText;
         font-weight: 200;
     }
 
@@ -41,13 +40,18 @@
 
 
 .emailHeading__link:hover {
-    color: $section-heading-color;
+    color: $neonPurple;
 }
 
 .linkHover:hover {
     transform: scale(1.2);
+    color: $neonPurple;
 }
 
+.iconSvg {
+    width: 2rem;
+    height: 2rem;
+}
 
 
 @media screen and (max-width: 640px) {

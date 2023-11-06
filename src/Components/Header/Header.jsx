@@ -1,5 +1,4 @@
-import React from "react";
-import HamburgerMenu from "react-hamburger-menu";
+import Hamburger from "hamburger-react";
 import { Tooltip } from "react-tooltip";
 import styles from "./Header.module.scss";
 
@@ -13,13 +12,14 @@ const Header = (props) => {
         data-tooltip-id="menu-icon"
         data-tooltip-content="Menu"
         data-tooltip-place="bottom"
-        data-tooltip-variant="info"
+        data-tooltip-variant="dark"
         data-tooltip-offset={20}
       >
-        <HamburgerMenu
-        color="#c3dcaf"
-        isOpen={menuOpen}
-        menuClicked={handleClick}
+        <Hamburger
+        rounded={true}
+        color="#0efc5b"
+        toggled={menuOpen}
+        toggle={handleClick}
         className={styles.heading__menu}
         />
       </div>

@@ -1,8 +1,7 @@
-@use "../../assets/styling/variables.scss" as *;
+@use "../../sass/" as *;
 
 .skillsList {
   width: 80%;
-  margin: 0 auto 20vh auto;
 
   &__container {
     display: grid;
@@ -15,20 +14,24 @@
 
 .skillsExtra {
   width: 70%;
-  color: $primary-text-color;
+  color: $primaryTextColor;
   text-align: left;
-  margin: 0 auto 30vh auto;
 
   &__info {
-    color: $section-heading-color;
+    color: $sectionHeadingColor;
     font-weight: 700;
   }
 
   > h3 {
-    color: $secondary-text-color;
+    color: $terminalText;
     text-decoration: underline;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
   }
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem;
 }
 
 @media (max-width: 640px) {

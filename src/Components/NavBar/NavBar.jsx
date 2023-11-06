@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./NavBar.module.scss";
 import { Link } from "react-scroll";
 
@@ -15,7 +14,7 @@ const NavBar = ({ handleClick }) => {
         offset={-50}
         onClick={handleClick}
       >
-        About
+        &#47;&#47; About 
       </Link>
       <Link
         className={styles.navbar__link}
@@ -26,7 +25,7 @@ const NavBar = ({ handleClick }) => {
         offset={-50}
         onClick={handleClick}
       >
-        Projects
+        &#47;&#47; Projects
       </Link>
       <Link
         className={styles.navbar__link}
@@ -37,7 +36,7 @@ const NavBar = ({ handleClick }) => {
         offset={-50}
         onClick={handleClick}
       >
-        Skills
+        &#47;&#47; Skills
       </Link>
       <Link
         className={styles.navbar__link}
@@ -48,7 +47,7 @@ const NavBar = ({ handleClick }) => {
         offset={-50}
         onClick={handleClick}
       >
-        Contact
+        &#47;&#47; Contact
       </Link>
     </nav>
   );
