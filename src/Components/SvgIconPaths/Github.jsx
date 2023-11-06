@@ -1,7 +1,7 @@
 const Github = () => {
   return (
     <>
-      <g fill="#f5f5f5">
+      <g fill="currentColor">
         <path
           fillRule="evenodd"
           clipRule="evenodd"

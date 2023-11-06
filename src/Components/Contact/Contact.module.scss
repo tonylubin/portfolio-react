@@ -40,11 +40,12 @@
 
 
 .emailHeading__link:hover {
-    color: $sectionHeadingColor;
+    color: $neonPurple;
 }
 
 .linkHover:hover {
     transform: scale(1.2);
+    color: $neonPurple;
 }
 
 .iconSvg {

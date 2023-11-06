@@ -1,179 +1,192 @@
-@use '../../sass/' as *;
+@use "../../sass/" as *;
 
 .projectContainer {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: auto;
+  gap: 5rem;
+
+  &__image {
     display: grid;
-    grid-template-columns: 3fr 2fr;
-    grid-template-rows: auto;
-    gap: 5rem;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
 
-    &__image {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
-        align-items: center;
-
-        img {
-            grid-area: 1 / 1 / 2 / 2;
-            // opacity: 0.8;
-        }
-
-        img:hover {
-            opacity: unset;
-        }
+    img {
+      grid-area: 1 / 1 / 2 / 2;
+      // opacity: 0.8;
     }
 
-
-    &__info {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        color: $primaryTextColor;
-        padding-left: 2rem;
+    img:hover {
+      opacity: unset;
     }
+  }
 
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: $primaryTextColor;
+    padding-left: 2rem;
+  }
 }
 
 .projectContainerBtnHolder {
-    width: 100%;
-    display: flex;
-    gap: 3rem;
+  width: 100%;
+  display: flex;
+  gap: 3rem;
 }
 
 .projectContainerTitle {
-    font-size: 1.8rem;
-    text-align: left;
-    font-weight: 400;
+  font-size: 1.8rem;
+  text-align: left;
+  font-weight: 400;
+  z-index: 0;
+  position: relative;
+  width: fit-content;
+}
+
+.projectContainerTitle::before {
+          
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: 100%;
+  height: 33.3%;
+  transform: skew(-12deg) translateX(-50%);
+  background: $neonPurple;
+  z-index: -1;
+    
 }
 
 .textInfo {
-    text-align: left;
-    color: #fff;
-    max-width: 80%;
-    grid-area: 1 / 1 / 2 / 2;
-    visibility: hidden;
-    font-size: 1.2rem;
-    font-weight: 200;
+  text-align: left;
+  color: $primaryTextColor;
+  max-width: 80%;
+  grid-area: 1 / 1 / 2 / 2;
+  visibility: hidden;
+  font-size: 1.2rem;
+  font-weight: 200;
 }
 
 .textInfoReveal {
-    visibility: visible;
+  visibility: visible;
 }
 
 .textInfoReveal + img {
-    opacity: 0.1;
+  opacity: 0.1;
 }
 
 .projectContainerReverse {
-    grid-template-columns: 2fr 3fr;
+  grid-template-columns: 2fr 3fr;
 }
 
 .reverseOrderImg {
-    order: 2;
+  order: 2;
 }
 
 .info {
-    border: 0.5px solid #f8f9fa;
-    border-radius: 2px;
-    padding: 1rem 1.5rem;
-    margin: 2rem 0 4rem 0;
-    width: max-content;
-    font-weight: 200;
-    cursor: default;
+  border: 0.5px dotted #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0 4rem 0;
+  width: max-content;
+  font-weight: 200;
+  cursor: default;
 }
 
 @media screen and (max-width: 1279px) {
-    .projectContainer {
-        &__info {
-            justify-content: center;
-        }
+  .projectContainer {
+    &__info {
+      justify-content: center;
     }
+  }
 
-    .projectContainerTitle {
-        font-size: 1.6rem;
-    }
+  .projectContainerTitle {
+    font-size: 1.6rem;
+  }
 
-    .info {
-        padding: 0.5rem 1rem;
-        margin: 1rem 0 2rem 0;
-    }
+  .info {
+    padding: 0.5rem 1rem;
+    margin: 1rem 0 2rem 0;
+  }
 
-    .textInfo {
-        max-width: 100%;
-    }
+  .textInfo {
+    max-width: 100%;
+  }
 }
 
-@media screen and (max-width: 996px)  {
-    .projectContainer {
-        grid-template-columns: 1fr;
+@media screen and (max-width: 996px) {
+  .projectContainer {
+    grid-template-columns: 1fr;
 
-        &__image {
-            max-width: 100%;
-            padding: 2rem;
-        }
-        
-        &__info {
-            width: 100%;
-            padding: 2rem;
-            align-items: center;
-        }
-    }
-    
-    .projectContainerTitle {
-        text-align: center;
-        font-size: 1.8rem;
+    &__image {
+      max-width: 100%;
+      padding: 2rem;
     }
 
-    .projectContainerBtnHolder {
-        justify-content: center;
-    }
-
-    .textInfo {
-        max-width: 100%;
-        padding: 2rem;
-    }
-
-    .info {
-        padding: 0.5rem 1rem;
-        margin: 2rem 0 4rem 0;
-    }
-
-    .reverseOrderImg {
-        order: initial;
+    &__info {
+      width: 100%;
+      padding: 2rem;
+      align-items: center;
     }
   }
 
-  @media screen and (max-width: 640px) {
-    
-    .projectContainer {
-        gap: 0;
-        
-        &__image {
-            padding: 0;
-        }
+  .projectContainerTitle {
+    text-align: center;
+    font-size: 1.8rem;
+  }
 
-        &__info {
-            padding: 1rem;
-        }
+  .projectContainerBtnHolder {
+    justify-content: center;
+  }
+
+  .textInfo {
+    max-width: 100%;
+    padding: 2rem;
+  }
+
+  .info {
+    padding: 0.5rem 1rem;
+    margin: 2rem 0 4rem 0;
+  }
+
+  .reverseOrderImg {
+    order: initial;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .projectContainer {
+    gap: 0;
+
+    &__image {
+      padding: 0;
     }
 
-    .textInfo {
-        padding: 1rem;
+    &__info {
+      padding: 1rem;
     }
   }
 
-  @media screen and (max-width: 325px) {
-    
-    .projectContainer {
-        max-width: 90%;
+  .textInfo {
+    padding: 1rem;
+  }
+}
 
-        &__image {
-            padding: 0.5rem;
-        }
-    }
+@media screen and (max-width: 325px) {
+  .projectContainer {
+    max-width: 90%;
 
-    .textInfo {
-        max-width: 90%;
+    &__image {
+      padding: 0.5rem;
     }
   }
+
+  .textInfo {
+    max-width: 90%;
+  }
+}

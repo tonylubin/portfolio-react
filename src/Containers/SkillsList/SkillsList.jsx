@@ -3,17 +3,17 @@ import SkillsCard from "../../Components/SkillsCard/SkillsCard";
 import styles from "./SkillsList.module.scss";
 import Icon from "../../Components/Icon/Icon";
 import { techSkills } from "../../data/skillsData";
+import { Zoom } from "react-awesome-reveal";
 
 const SkillsList = () => {
 
   const getSkillsCards = techSkills.map((skill, index) => (
-
-    <SkillsCard
-      key={index}
-      icon={<Icon path={skill.icon} classname={styles.icon}/>}
-      title={skill.title}
-    />
-
+    <Zoom key={index}>
+      <SkillsCard
+        icon={<Icon path={skill.icon} classname={styles.icon}/>}
+        title={skill.title}
+      />
+    </Zoom>
   ));
 
   return (
