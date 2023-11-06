@@ -1,7 +1,7 @@
 import SectionHeader from "../../Components/SectionHeader/SectionHeader";
 import ProjectCard from "../../Components/ProjectCard/ProjectCard";
 import styles from "./ProjectsShowcase.module.scss";
-import cardData from "../../data/projectData.json";
+import cardData from "../../assets/data/projectData.json";
 import { Fade } from "react-awesome-reveal";
 
 const ProjectsShowcase = () => {

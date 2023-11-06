@@ -2,7 +2,7 @@ import SectionHeader from "../../Components/SectionHeader/SectionHeader";
 import SkillsCard from "../../Components/SkillsCard/SkillsCard";
 import styles from "./SkillsList.module.scss";
 import Icon from "../../Components/Icon/Icon";
-import { techSkills } from "../../data/skillsData";
+import { techSkills } from "../../assets/data/skillsData";
 import { Zoom } from "react-awesome-reveal";
 
 const SkillsList = () => {

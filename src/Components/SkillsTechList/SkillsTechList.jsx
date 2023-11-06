@@ -1,7 +1,7 @@
 import styles from "./SkillsTechList.module.scss";
 import Icon from "../Icon/Icon";
 import SkillsCard from "../SkillsCard/SkillsCard";
-import { techSkills } from "../../data/skillsData";
+import { techSkills } from "../../assets/data/skillsData";
 
 const SkillsTechList = ({ techstackIcons }) => {
 
