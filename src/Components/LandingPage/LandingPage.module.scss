@@ -1,11 +1,14 @@
 @use '../../sass/' as *;
 
 .landingPage {
-    @include flexCenter();
+    display: flex;
+    align-items: center;
     height: 100vh;
     width: 100%;
-    background-image: url("/images/kevin-kandlbinder-WrjxzLskZK0-unsplash.jpg");
-    background-size: cover;
+    background-image: url("/images/retro-computer.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
     color: $terminalText;
 
     &__greeting {
@@ -13,19 +16,24 @@
         font-size: 1.7rem;
         font-weight: 200;
         line-height: 1.6;
+        margin-left: 6rem;
     }
 }
 
 @media screen and (max-width: 996px) {
-    .landingPage__greeting {
-        width: 70%;
+    .landingPage{
+        justify-content: center;
+
+        &__greeting {
+            width: 70%;
+            margin: auto;
+        }
     }
 }
 
 @media screen and (max-width: 640px) {
     .landingPage__greeting {
         width: 80%;
-        margin: auto;
         font-size: 1.5rem;
     }
 }
