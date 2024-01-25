@@ -36,7 +36,7 @@ const SkillsList = () => {
         <p><span className={styles.skillsExtra__info}>FIREBASE:</span> hosting & authentication</p>
         <h3>FUNDAMENTALS</h3>
         <p><span className={styles.skillsExtra__info}>VERSION CONTROL:</span> Git & Github</p>
-        <p><span className={styles.skillsExtra__info}>UNIT TESTING:</span> Jest & Enzyme</p>
+        <p><span className={styles.skillsExtra__info}>TESTING:</span> Jest, Enzyme, React Testing Library and Playwright</p>
         <p><span className={styles.skillsExtra__info}>TOOLS:</span> Figma, Postman, Trello, CLI, VS code</p>
       </section>
     </>
