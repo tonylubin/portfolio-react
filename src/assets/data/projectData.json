@@ -3,7 +3,7 @@
     "projectCodeUrl": "https://github.com/tonylubin/music-library",
     "projectViewUrl": "https://my-vinyl-library.vercel.app",
     "title": "The Vinyl Lib.",
-    "info": "A full stack desktop app for organizing & playing your music catalogue, similar to itunes. Digitized my vinyl records then upload audio & record cover image using Cloudinary API. React hook form for storing track details in a postgresql database. Built an audio player with an EQ analyzer. Search functionality and ability to create playlists. Tested using React Testing Library and Playwright.",
+    "info": "A full stack desktop app for organizing & playing your music catalogue, similar to itunes. Digitized my vinyl records then upload audio & record cover image using Cloudinary API. React hook form for storing track details in a postgresql database. Built an audio player with an EQ analyzer. Search functionality and ability to create playlists. Tested using React Testing Library and Playwright. ***DUE TO BUG WITH SAFARI BROWSER, PLEASE USE CHROME BROWSER***",
     "imageUrl": "/images/music-player-screenshot.png",
     "imageAlt": "Screenshot of a webscraping app called the vinyl library",
     "isReversed": false,
