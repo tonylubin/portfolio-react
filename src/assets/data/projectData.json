@@ -46,7 +46,7 @@
     "imageAlt": "Screenshot of a wheel of fortune type quiz game",
     "info": "Approached with the mindset of mobile-first, this Javascript project is based upon the classic quiz game 'wheel of fortune'. It is a two player word guessing game, whereby highest score wins. Incorrect guesses and player turns are handled 'automatically' i.e. without user input. Players spin an animated wheel for points and guess letters via the projects purpose built keyboard.",
     "imageUrl": "/images/Quiz-laptop-screenshot.png",
-    "isReversed": true,
+    "isReversed": false,
     "techstackIcons": ["html5", "sass", "javascript"]
   },
   {
@@ -56,7 +56,7 @@
     "info": "An app for a user to keep track of tasks. Built with a connection to Firebase as a BaaS to allow CRUD operations, a user can write, update and delete a todo, as well as being able to show a todo as completed. Furthermore, authentication was added, thus to utilise the app a user must be registered/logged in. This is handled through login/registration form(s) using firebase auth.",
     "imageUrl": "/images/MyTodos-laptop-screenshot.png",
     "imageAlt": "Screenshot of a app that deals with todos",
-    "isReversed": false,
+    "isReversed": true,
     "techstackIcons": ["react", "firebase", "sass"]
   },
   {
@@ -84,7 +84,7 @@
     "projectViewUrl": "https://tonylubin.github.io/JS---Calculator",
     "title": "JS Calculator",
     "imageAlt": "Screenshot of a JS Calculator App",
-    "info": "A working calculator with addition, multiplication, subtraction, division and the added functionality of decimal points and percentages. The calculator has a 'clear' button to reset values and a 'backspace' button to delete the last value entered on screen. Designed in a neomorphic style using Sass, the Bem convention and written in vanilla Javascript.",
+    "info": "Designed in a neomorphic style using Sass, with Bem convention and written in vanilla Javascript. A working calculator with added functionality of decimal points and percentages. The calculator has a 'clear' button to reset values and a 'backspace' button to delete the last value entered on screen.",
     "imageUrl": "/images/Calculator-laptop-screenshot.png",
     "isReversed": false,
     "techstackIcons": ["html5", "sass", "javascript"]
