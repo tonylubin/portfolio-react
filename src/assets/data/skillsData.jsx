@@ -13,6 +13,8 @@ import Github from '../../Components/SvgIconPaths/Github';
 import Bootstrap from '../../Components/SvgIconPaths/Bootstrap';
 import Tailwind from '../../Components/SvgIconPaths/Tailwind';
 import Firebase from '../../Components/SvgIconPaths/Firebase';
+import Playwright from '../../Components/SvgIconPaths/Playwright';
+import Vitest from '../../Components/SvgIconPaths/Vitest';
 
 
 export const techSkills = [
@@ -75,5 +77,13 @@ export const techSkills = [
   {
     title: "GitHub",
     icon: <Github /> 
+  },
+  {
+    title: "Playwright",
+    icon: <Playwright />
+  },
+  {
+    title: "Vitest",
+    icon: <Vitest />
   }
 ];

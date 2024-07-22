@@ -17,7 +17,7 @@
     "imageUrl": "/images/Beer-finder-laptop-screenshot.png",
     "imageAlt": "Screenshot of a beer finder app using BrewDogs punk beers Api",
     "isReversed": true,
-    "techstackIcons": ["react", "sass"]
+    "techstackIcons": ["nextjs", "sass", "mongodb"]
   },
   {
     "projectCodeUrl": "https://github.com/tonylubin/webscraper---node-js.git",
@@ -27,7 +27,7 @@
     "imageUrl": "/images/Money-saver-laptop-screenshot.png",
     "imageAlt": "Screenshot of a webscraping app called Money saver app",
     "isReversed": false,
-    "techstackIcons": ["nodejs", "express", "mongodb", "bootstrap"] 
+    "techstackIcons": ["nodejs", "express", "mongodb", "puppeteer", "bootstrap"] 
   },
   {
     "projectCodeUrl": "https://github.com/tonylubin/space_tourism",
@@ -40,16 +40,6 @@
     "techstackIcons": ["react", "sass"]
   },
   {
-    "projectCodeUrl": "https://github.com/tonylubin/todos-app",
-    "projectViewUrl": "https://mytodosapp-4e40f.firebaseapp.com/",
-    "title": "MyTodos",
-    "info": "An app for a user to keep track of tasks. Built with a connection to Firebase as a BaaS to allow CRUD operations, a user can write, update and delete a todo, as well as being able to show a todo as completed. Furthermore, authentication was added, thus to utilise the app a user must be registered/logged in. This is handled through login/registration form(s) using firebase auth.",
-    "imageUrl": "/images/MyTodos-laptop-screenshot.png",
-    "imageAlt": "Screenshot of a app that deals with todos",
-    "isReversed": false,
-    "techstackIcons": ["react", "firebase", "sass"]
-  },
-  {
     "projectCodeUrl": "https://github.com/tonylubin/JS---Quiz-Game.git",
     "projectViewUrl": "https://tonylubin.github.io/JS---Quiz-Game",
     "title": "Spin a Fortune",
@@ -58,6 +48,16 @@
     "imageUrl": "/images/Quiz-laptop-screenshot.png",
     "isReversed": true,
     "techstackIcons": ["html5", "sass", "javascript"]
+  },
+  {
+    "projectCodeUrl": "https://github.com/tonylubin/todos-app",
+    "projectViewUrl": "https://mytodosapp-4e40f.firebaseapp.com/",
+    "title": "MyTodos",
+    "info": "An app for a user to keep track of tasks. Built with a connection to Firebase as a BaaS to allow CRUD operations, a user can write, update and delete a todo, as well as being able to show a todo as completed. Furthermore, authentication was added, thus to utilise the app a user must be registered/logged in. This is handled through login/registration form(s) using firebase auth.",
+    "imageUrl": "/images/MyTodos-laptop-screenshot.png",
+    "imageAlt": "Screenshot of a app that deals with todos",
+    "isReversed": false,
+    "techstackIcons": ["react", "firebase", "sass"]
   },
   {
     "projectCodeUrl": "https://github.com/tonylubin/JS---Morse-Code-Translator",
