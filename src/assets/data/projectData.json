@@ -10,7 +10,7 @@
     "techstackIcons": ["nextjs", "tailwind", "postgresql"] 
   },
   {
-    "projectCodeUrl": "https://github.com/tonylubin/Beer-Finder-Punk-api",
+    "projectCodeUrl": "https://github.com/tonylubin/beer-finder",
     "projectViewUrl": "https://find-me-a-beer.vercel.app/",
     "title": "BrewDog Beer Finder",
     "info": "A project built with NEXTJS that allows the user to search Brewdog's beers catalogue, by letter/name or filter functionality. Designed mobile-first, with the results shown to the user as a flipable 'beer card', with extra info about the beer on the back of the card. Reworked Punk API into a NoSQL database for data fetching by building aggregation pipeline via url search query. Tested using vitest and playwright.",
