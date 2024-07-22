@@ -11,9 +11,9 @@
   },
   {
     "projectCodeUrl": "https://github.com/tonylubin/Beer-Finder-Punk-api",
-    "projectViewUrl": "https://tonylubin.github.io/Beer-Finder-Punk-api",
+    "projectViewUrl": "https://find-me-a-beer.vercel.app/",
     "title": "BrewDog Beer Finder",
-    "info": "A project built in React that allows the user to search for Punk beers, by letter/name or filter functionality, via fetch requests to the Punk Beer API. Designed mobile-first, with the results shown to the user as a flipable 'beer card', with extra info about the beer on the back of the card. Project also incorporates, where suitable, unit testing using jest/enzyme.",
+    "info": "A project built with NEXTJS that allows the user to search Brewdog's beers catalogue, by letter/name or filter functionality. Designed mobile-first, with the results shown to the user as a flipable 'beer card', with extra info about the beer on the back of the card. Reworked Punk API into a NoSQL database for data fetching by building aggregation pipeline via url search query. Tested using vitest and playwright.",
     "imageUrl": "/images/Beer-finder-laptop-screenshot.png",
     "imageAlt": "Screenshot of a beer finder app using BrewDogs punk beers Api",
     "isReversed": true,
