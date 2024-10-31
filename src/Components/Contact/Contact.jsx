@@ -2,14 +2,12 @@ import SectionHeader from "../SectionHeader/SectionHeader";
 import Icon from "../Icon/Icon";
 import Email from "../../Components/SvgIconPaths/Email";
 import Github from "../../Components/SvgIconPaths/Github";
-import Instagram from "../../Components/SvgIconPaths/Instagram";
 import styles from "./Contact.module.scss";
 
 const Contact = () => {
   const urls = {
     github: "http://github.com/tonylubin",
     email: "anthonylubin@outlook.com",
-    instagram: "https://www.instagram.com/anthonylubin78",
   };
 
   return (
@@ -34,14 +32,6 @@ const Contact = () => {
             rel="noreferrer"
           >
             <Icon classname={styles.iconSvg} path={<Github />} />
-          </a>
-          <a
-            className={styles.linkHover}
-            href={urls.instagram}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Instagram classname={styles.iconSvg} />
           </a>
         </div>
       </div>
